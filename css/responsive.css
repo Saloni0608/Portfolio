@@ -566,8 +566,11 @@
 
 	.skillsdisplay {
 		margin-top: 0.5rem;
+		width: -webkit-fill-available;
 	}
-
+    .item{
+		margin:auto;
+	}
 	.workresp {
 		display: flex;
 		flex-direction: column;
@@ -579,10 +582,22 @@
 	}
 
 	.pararesp {
-		margin-left: -4rem !important;
+		padding-right: 4em !important;
+		margin-left: -3em !important;
 	}
 
 	.tagresp {
 		margin-left: -4rem !important;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.pararesp {
+		padding-right: 6em !important;
+		margin-left: -5em !important;
+	}
+
+	.tagresp {
+		margin-left: -6rem !important;
 	}
 }
