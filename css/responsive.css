@@ -589,6 +589,9 @@
 	.tagresp {
 		margin-left: -4rem !important;
 	}
+	.skillrespm {
+		margin-top: 40rem!important;
+	}
 }
 
 @media only screen and (max-width: 390px) {
@@ -599,5 +602,8 @@
 
 	.tagresp {
 		margin-left: -6rem !important;
+	}
+	.skillrespm {
+		margin-top: 60rem!important;
 	}
 }
